@@ -69,6 +69,7 @@
                 variant="elevated"
                 block
                 @click="click"
+                to="/contact/"
                 >Create</v-btn
               >
             </form>
@@ -138,7 +139,6 @@ export default {
         this.contact.photo != ""
       ) {
         localStorage.setItem("conadd", JSON.stringify(this.contact));
-        this.$router.push("/");
       } else {
         this.val = true;
       }
