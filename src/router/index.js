@@ -14,7 +14,7 @@ import ContactsView from "../pages/ContactsView.vue";
 import notFound from "../pages/notFound.vue";
 const routes = [
   {
-    path: "/",
+    path: "/contact",
     name: "HomeView",
     component: HomeView,
   },
