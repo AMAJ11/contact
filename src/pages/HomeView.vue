@@ -7,7 +7,7 @@
           style="width: 250px"
         >
           <h3 class="text-blue-lighten-2">contacts manager</h3>
-          <v-btn color="blue-lighten-4" variant="tonal" to="/add">
+          <v-btn color="blue-lighten-4" variant="tonal" to="/contact/add">
             <v-icon color="white">mdi-plus-circle</v-icon> Add</v-btn
           >
         </div>
@@ -100,14 +100,14 @@
                     class="mt-5"
                     color="blue"
                     size="small"
-                    :to="`/ContactsView/${num.id}`"
+                    :to="`/contact/ContactsView/${num.id}`"
                     ><v-icon size="x-large">mdi-information</v-icon></v-btn
                   >
                   <v-btn
                     class="mt-1"
                     color="blue"
                     size="small"
-                    :to="`/ContactsEdit/${num.id}`"
+                    :to="`/contact/ContactsEdit/${num.id}`"
                     ><v-icon size="x-large">mdi-pencil</v-icon></v-btn
                   >
                   <v-btn

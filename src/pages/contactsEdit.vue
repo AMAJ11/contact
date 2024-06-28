@@ -66,6 +66,7 @@
                 variant="elevated"
                 block
                 @click="this.update"
+                to="/contact/"
                 >Update</v-btn
               >
             </form>
@@ -81,7 +82,7 @@
       <v-btn
         color="blue-lighten-3"
         style="width: 100px"
-        to="/"
+        to="/contact/"
         class="ml-10 mb-10"
         ><v-icon>mdi-arrow-left</v-icon> Back</v-btn
       >
@@ -127,7 +128,6 @@ export default {
         }
         contacts.push(this.contact);
         localStorage.setItem("contact", JSON.stringify(contacts));
-        this.$router.push("/");
       } else {
         this.val = true;
       }

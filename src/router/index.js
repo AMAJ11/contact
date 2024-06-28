@@ -14,27 +14,27 @@ import ContactsView from "../pages/ContactsView.vue";
 import notFound from "../pages/notFound.vue";
 const routes = [
   {
-    path: "/",
+    path: "/contact",
     name: "HomeView",
     component: HomeView,
   },
   {
-    path: "/add",
+    path: "/contact/add",
     name: "ContactAdd",
     component: ContactAdd,
   },
   {
-    path: "/contactsManager",
+    path: "/contact/contactsManager",
     name: "contactsManager",
     component: contactsManager,
   },
   {
-    path: "/ContactsEdit/:contactId",
+    path: "/contact/ContactsEdit/:contactId",
     name: "ContactsEdit",
     component: ContactsEdit,
   },
   {
-    path: "/ContactsView/:contactId",
+    path: "/contact/ContactsView/:contactId",
     name: "ContactsView",
     component: ContactsView,
   },

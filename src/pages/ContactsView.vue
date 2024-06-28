@@ -61,7 +61,7 @@
     <v-btn
       color="blue-lighten-3"
       style="width: 100px"
-      to="/"
+      to="/contact/"
       class="ml-10 mb-10"
       ><v-icon>mdi-arrow-left</v-icon> Back</v-btn
     >
